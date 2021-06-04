@@ -1,0 +1,16 @@
+body  {
+    background-color: #02475e;
+}
+
+p, h2, h3, h4, li, a, label {
+    color: #fefecc;
+}
+
+hr {
+    /* background-color: #fefecc; */
+    border-color: #fefecc;
+    /* height: 5px; */
+    border-width: 0 0 10px 0;
+    border-style: dotted;
+    width: 90px;
+}
