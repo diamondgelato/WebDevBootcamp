@@ -1,0 +1,5 @@
+// alert("Hello");
+// alert("World");
+
+// var name = prompt ("What is your name");
+// alert("Your name is " + name);
