@@ -1,0 +1,34 @@
+/* body {
+    background-color: red;
+} */
+
+h1 {
+    color: red;
+    font-size: 100px;
+}
+
+/* img {
+    background-color: red;
+} */
+
+/* CLASS SELECTORS */
+
+.bacon {
+    background-color: red;
+}
+
+.bacon:hover {
+    background-color: orange;
+}
+
+.broccoli {
+    background-color: green;
+}
+
+.broccoli:hover {
+    background-color: greenyellow;
+}
+
+.circle {
+    border-radius: 100%;
+}
