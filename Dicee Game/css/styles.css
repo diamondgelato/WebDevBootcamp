@@ -1,0 +1,41 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #22b2da;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 5px 0 #f23557;
+  font-size: 8rem;
+  color: #f0d43a;
+}
+
+p {
+  font-size: 2rem;
+  color: #f0d43a;
+  font-family: 'Raleway', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Raleway', cursive;
+
+}
