@@ -6,17 +6,27 @@ body  {
     text-align: center;
 }
 
-/* p, h1, h2, h3, h4, li, a, label {
-    
-} */
-
 hr {
     /* background-color: #126E82; */
     border-color: #132C33;
-    /* height: 5px; */
     border-width: 0 0 10px 0;
     border-style: dotted;
     width: 90px;
+    margin: 75px auto;
+}
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 16px;
 }
 
 .top-container {
@@ -25,9 +35,6 @@ hr {
     text-align: center;
     position: relative;
     padding: 150px 0 100px 0;
-}
-
-.bottom-container {
 }
 
 .cloud-1 {
@@ -45,7 +52,7 @@ hr {
 .header {
     color: #126E82;
     font-family: 'Dancing Script';
-    font-size: 5.5rem;
+    font-size: 4rem;
     line-height: 2;
     margin: 0 auto;
 }
@@ -53,9 +60,9 @@ hr {
 .below-header {
     color: #126E82;
     font-family: 'Lato';
-    font-size: 2.5rem;
+    font-size: 1.5em;
     line-height: 2;
-    margin-top: 50px;
+    /* margin: ; */
 }
 
 .intro-text {
@@ -68,10 +75,19 @@ hr {
     right: 75px;
 }
 
-/* MIDDDLE CONTAINER */
+/* MIDDLE CONTAINER */
 
 .middle-container {
     /* text-align: center; */
+}
+
+.avatar-image {
+    width: 250px;
+    border-radius: 100%;
+    /* gradient lighter: #4088e8 darker: #3463a3 */
+    /* background-color: radial-gradient (#4088e8, #3463a3); */
+    background-color: #3463a3;
+    border: solid 15px #3463a3;
 }
 
 .skill-row {
@@ -95,8 +111,8 @@ hr {
 
 .skill-headers {
     color: #126E82;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    /* font-family: 'Lato', sans-serif; */
+    font-weight: 900;
 }
 
 .skill-desc {
@@ -115,8 +131,8 @@ hr {
     border-radius: 10px;
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     padding: 10px;
     /* -webkit-box-shadow: 1px 1px 20px 0 #000000;
     -moz-box-shadow: 1px 1px 20px 0 #000000;
@@ -146,6 +162,12 @@ hr {
 
 /* BOTTOM CONTAINER */
 
+.bottom-container {
+    padding: 50px 0 150px 0;
+}
+
 .footer-link {
+    /* margin-top: 20px; */
     color: #126E82;
+    margin: 0 20px;
 }
