@@ -1,0 +1,76 @@
+body {
+    /* background-color: #FFF5B7; */
+    /* background-color: #005F99; */
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    /* color: #00EAD3; */
+    color: #FF449F;
+    font-family: 'Space Mono', monospace;
+    font-size: 3.5rem;
+
+    text-shadow:
+        0 0 1px #FF449F,
+        0 0 2px #FF449F,
+        0 0 4px #FF449F;
+}
+
+.game-over {
+    background-color: orangered;
+}
+
+.all-buttons {
+    margin: 6% 0;
+}
+
+.two-button-container {
+    margin: 6% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.game-button {
+    margin: 0 3%;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+
+    /* color: #fff; */
+    border: solid 5px #FFF5B7 ;
+    box-shadow:
+        0 0 7px #FFF5B7,
+        0 0 10px #FFF5B7,
+        0 0 21px #FFF5B7;
+        /* 0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa; */
+}
+
+.pressed {
+    background-color: grey;
+    border: solid 5px #FFF5B7;
+    box-shadow:
+        0 0 7px grey,
+        0 0 10px grey,
+        0 0 21px grey;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: dodgerblue;
+}
+
+.green {
+    background-color: lime;
+}
