@@ -1,0 +1,13 @@
+<%- include("partials/header"); %> 
+
+<h1>Home</h1>
+<p><%= homeContent %> </p>
+
+<% posts.forEach(function (post) { %>
+    <% var route = "/posts/" + post.blogTitle; %> 
+    <% console.log (route) %> 
+    <h1><%= post.blogTitle %> </h1>
+    <p><%= post.blogContent.substring(0, 100) %> ... <a href="<%= route %>" >Read More</a> </p>
+<% }) %> 
+
+<%- include("partials/footer"); %> 
