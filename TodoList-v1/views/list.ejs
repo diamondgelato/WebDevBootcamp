@@ -6,16 +6,23 @@
     </div>
 
     <div class="box">
-        <% for (let  i = 0; i < newItem.length; i++) { %> 
-            <div class="item">
-                <input type="checkbox">
-                <p><%= newItem[i] %> </p>
-            </div>
-        <% } %>
+        <%# for (let  i = 0; i < newItem.length; i++) { %> 
+            
+        <%# } %>
+
+        <% newItem.forEach (function (item) { %>
+            <form action="/delete" method="post">
+                <div class="item">
+                    <input type="hidden" name="listName" value="<%= listTitle %>">
+                    <input type="checkbox" name="checkbox" value="<%= item._id %> " onclick="this.form.submit()">
+                    <p><%= item.name %> </p>
+                </div>
+            </form>
+        <% }); %> 
 
         <form class="item" action="/" method="post">
             <input type="text" name="todoListItem" placeholder="New Item" autocomplete="off">
-            <button type="submit" name="submit" value=<%= listName %> >+</button>
+            <button type="submit" name="submit" value=<%= listTitle %> >+</button>
         </form>
     </div>
 </body>
